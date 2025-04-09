@@ -1,12 +1,23 @@
-import SectionTitle from '@/components/SectionTitle';
+import IntroCard from "./components/IntroCard";
+import AboutMeText from "./components/AboutMeText";
+import EducationCard from "./components/EducationCard";
+import WannaKnowMore from "./components/WannaKnowMore";
+import education from "@/data/education.json";
 
 export default function AboutPage() {
   return (
-    <main className="max-w-3xl mx-auto py-8 px-4">
-      <SectionTitle title="Sobre mí" />
-      <p className="text-gray-700 mt-4">
-        Soy una desarrolladora curiosa y apasionada con experiencia en desarrollo full stack, aprendizaje automático y procesamiento de audio e imagen. Disfruto trabajando en entornos colaborativos y remotos, donde la comunicación y adaptabilidad son claves.
-      </p>
+    <main className="min-h-screen px-6 py-10 bg-white dark:bg-neutral-950 text-neutral-900 dark:text-white space-y-12">
+      <IntroCard />
+      <AboutMeText />
+      <section>
+        <h2 className="text-2xl font-semibold mb-4">🎓 Education</h2>
+        <div className="space-y-4">
+          {education.map((item, idx) => (
+            <EducationCard key={idx} {...item} />
+          ))}
+        </div>
+      </section>
+      <WannaKnowMore />
     </main>
   );
 }
