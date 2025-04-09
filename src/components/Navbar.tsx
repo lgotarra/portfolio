@@ -1,35 +1,26 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
-
-const links = [
-  { href: '/', label: 'Inicio' },
-  { href: '/about', label: 'Sobre mí' },
-  { href: '/experience', label: 'Experiencia' },
-  { href: '/contact', label: 'Contacto' },
-];
+import Link from "next/link";
 
 export default function Navbar() {
-  const pathname = usePathname();
-
   return (
-    <nav className="bg-white shadow sticky top-0 z-50">
-      <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
-        <Link href="/" className="text-xl font-bold text-blue-600">Mi Portfolio</Link>
-        <div className="flex space-x-6 text-sm">
-          {links.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className={`hover:text-blue-600 transition ${
-                pathname === link.href ? 'text-blue-600 font-medium' : 'text-gray-700'
-              }`}
-            >
-              {link.label}
-            </Link>
-          ))}
-        </div>
+    <nav className="w-full px-6 py-4 border-b flex justify-between items-center bg-white dark:bg-neutral-900">
+      <Link href="/" className="text-xl font-bold">
+        Laura Gotarra
+      </Link>
+      <div className="flex items-center gap-6">
+        <Link href="/about" className="hover:underline">
+          About
+        </Link>
+        <Link href="/experience" className="hover:underline">
+          Experience
+        </Link>
+        <a
+          href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL}`}
+          className="ml-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
+        >
+          Say hi!
+        </a>
       </div>
     </nav>
   );
