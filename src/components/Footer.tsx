@@ -24,7 +24,7 @@ export default function Footer() {
       </div>
 
       {/* Texto al centro */}
-      <div>© Laura Gotarra – {new Date().getFullYear()}</div>
+      <div>© Laura Gotarra - {new Date().getFullYear()}</div>
     </footer>
   );
 }
