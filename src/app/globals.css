@@ -11,11 +11,17 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 
-  --color-theme-1: #c9cecd;
+  --color-bgtheme-1: #c9cecd;
+  --color-bgtheme-2: #f2e5d5;
+  --color-bgtheme-3: #d9bca3;
+  --color-bgtheme-4: #d9ab91;
+  --color-bgtheme-5: #f2ddd5;
+
+  --color-theme-1: #d9ab91;
   --color-theme-2: #f2e5d5;
-  --color-theme-3: #d9bca3;
-  --color-theme-4: #d9ab91;
-  --color-theme-5: #f2ddd5;
+  --color-theme-3: #50514f;
+  --color-theme-4: #639fab;
+  --color-theme-5: #84afe6;
 }
 
 @media (prefers-color-scheme: dark) {
