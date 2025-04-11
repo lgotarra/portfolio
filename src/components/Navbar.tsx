@@ -17,7 +17,7 @@ export default function Navbar() {
         </Link>
         <a
           href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL}`}
-          className="ml-4 bg-theme-4 text-white px-4 py-2 rounded hover:bg-theme-3 transition"
+          className="ml-4 bg-theme-4 text-white px-4 py-2 rounded hover:bg-theme-5 transition"
         >
           Say hi!
         </a>
