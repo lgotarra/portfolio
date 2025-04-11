@@ -9,11 +9,11 @@ export default function AboutMeText() {
 
       <p>
         📷 I enjoy photography and videography as a hobby. You can check out some of my work on{" "}
-        <Link href="https://www.flickr.com" target="_blank" className="text-blue-600 hover:underline">
+        <Link href="https://www.flickr.com" target="_blank" className="text-theme-4 hover:underline">
           Flickr
         </Link>{" "}
         or watch{" "}
-        <Link href="https://www.youtube.com" target="_blank" className="text-blue-600 hover:underline">
+        <Link href="https://www.youtube.com" target="_blank" className="text-theme-4 hover:underline">
           some videos
         </Link>.
       </p>

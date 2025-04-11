@@ -4,7 +4,7 @@ export default function WannaKnowMore() {
       Wanna know more?{" "}
       <a
         href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL}`}
-        className="text-blue-600 font-medium hover:underline"
+        className="text-theme-4 font-medium hover:underline"
       >
         Let&apos;s grab a virtual coffee ☕
       </a>
