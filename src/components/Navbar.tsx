@@ -9,15 +9,21 @@ export default function Navbar() {
         Laura Gotarra
       </Link>
       <div className="flex items-center gap-6">
-        <Link href="/about" className="hover:bg-theme-4 px-4 py-2 rounded transition hover:text-white">
+        <Link
+          href="/about"
+          className="px-4 py-2 rounded transition hover:text-theme-4"
+        >
           About
         </Link>
-        <Link href="/experience" className="hover:bg-theme-4 px-4 py-2 rounded transition hover:text-white">
+        <Link
+          href="/experience"
+          className="px-4 py-2 rounded transition hover:text-theme-4"
+        >
           Experience
         </Link>
         <a
           href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL}`}
-          className="ml-4 bg-theme-4 text-white px-4 py-2 rounded hover:bg-theme-5 transition"
+          className="ml-4 border-1 border-double border-theme-4 px-4 py-2 rounded-full hover:bg-theme-4 hover:text-white transition"
         >
           Say hi!
         </a>
