@@ -15,7 +15,6 @@ export default function MenuList({ menuItems, itemStyle }: MenuListProps) {
       {menuItems.map((item, index) => (
         <div className={itemStyle} key={`menu-item-div-${index}`}>
           <Link
-            className="w-full h-full flex items-center justify-center"
             key={`menu-item-link-${index}`}
             href={item.href}
             onClick={() => item.onClick()}
