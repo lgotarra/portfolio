@@ -2,8 +2,9 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import MenuList, { MenuItem } from "./HamburguerMenu";
+import { MenuItem } from "./MenuList";
 import { FaBars } from "react-icons/fa";
+import AnimatedMenu from "./AnimatedMenu";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
@@ -56,20 +57,13 @@ export default function Navbar() {
           <FaBars size={18} />
         </span>
       </div>
-      {/* Mobile menu */}
 
-      <div
-        className={`transition-height ease duration-500 absolute top-full left-0 w-full bg-white dark:bg-neutral-900 sm:hidden border-t z-40 ${
-          isMenuOpen ? "scale-y-100" : "scale-y-0"
-        }`}
-        style={{ transformOrigin: "top" }}
-      >
-        {MenuList({
-          menuItems,
-          itemStyle:
-            "py-2 w-full flex justify-center text-white items-center bg-theme-4 transition hover:bg-white hover:text-theme-4",
-        })}
-      </div>
+      {/* Mobile menu */}
+      <AnimatedMenu
+        isMenuOpen={isMenuOpen}
+        menuItems={menuItems}
+        itemStyle="py-2 w-full flex justify-center text-white items-center bg-theme-4 transition hover:bg-white hover:text-theme-4"
+      />
     </nav>
   );
 }
