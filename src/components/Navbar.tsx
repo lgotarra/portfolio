@@ -62,7 +62,7 @@ export default function Navbar() {
       <AnimatedMenu
         isMenuOpen={isMenuOpen}
         menuItems={menuItems}
-        itemStyle="py-5 w-full flex justify-center text-white items-center bg-theme-4 transition hover:bg-white hover:text-theme-4"
+        itemStyle="py-5 w-full flex justify-end text-white items-center bg-theme-4 transition hover:bg-white hover:text-theme-4 pr-8"
       />
     </nav>
   );
