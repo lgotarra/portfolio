@@ -1,5 +1,6 @@
-export default function HomeIntro() {
+export default function HomePage() {
   return (
+    <div className="flex items-center justify-center h-full">
       <section className="text-center max-w-2xl mx-auto space-y-4">
         <h1 className="text-3xl font-semibold">Hello, I&apos;m</h1>
         <h2 className="text-5xl font-bold text-secondary">Laura Gotarra</h2>
@@ -16,5 +17,6 @@ export default function HomeIntro() {
           skill set.
         </p>
       </section>
+    </div>
   );
 }

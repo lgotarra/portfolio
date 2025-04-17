@@ -1,9 +1,5 @@
-import HomeIntro from "@/components/HomeIntro";
+import HomePage from "./home/page";
 
 export default function Home() {
-  return (
-    <div className="flex items-center justify-center h-full">
-      <HomeIntro />
-    </div>
-  );
+  return HomePage();
 }
