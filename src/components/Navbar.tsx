@@ -34,7 +34,7 @@ export default function Navbar() {
             <Link
               key={index}
               href={item.href}
-              className="px-4 py-2 rounded transition hover:text-theme-4"
+              className="px-4 py-2 rounded transition hover:text-secondary"
               onClick={handleRedirect}
             >
               {item.label}
@@ -44,14 +44,14 @@ export default function Navbar() {
         {/* Contact button */}
         <a
           href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL}`}
-          className="whitespace-nowrap mx-2 border-1 border-double border-theme-4 px-4 py-1.5 rounded-full hover:bg-theme-4 hover:text-white transition"
+          className="whitespace-nowrap mx-2 border-1 border-double border-secondary px-4 py-1.5 rounded-full hover:bg-secondary hover:text-white transition"
         >
           Say hi!
         </a>
 
         {/* Hamburguer menu icon */}
         <span
-          className="cursor-pointer sm:hidden w-9 h-9 flex items-center justify-center rounded py-0.5 text-neutral-500 hover:bg-theme-4 hover:text-white transition"
+          className="cursor-pointer sm:hidden w-9 h-9 flex items-center justify-center rounded py-0.5 text-neutral-500 hover:bg-secondary hover:text-white transition"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           <FaBars size={18} />
@@ -62,7 +62,7 @@ export default function Navbar() {
       <AnimatedMenu
         isMenuOpen={isMenuOpen}
         menuItems={menuItems}
-        itemStyle="py-5 w-full flex justify-end text-white items-center bg-theme-4 transition hover:bg-white hover:text-theme-4 pr-8"
+        itemStyle="py-5 w-full flex justify-end text-white items-center bg-secondary transition hover:bg-white hover:text-secondary pr-8"
       />
     </nav>
   );

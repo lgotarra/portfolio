@@ -25,7 +25,7 @@ const AnimatedMenu = ({
 
   return (
     <div
-      className="transition-all ease-in-out duration-500 absolute top-full left-0 w-full bg-white dark:bg-neutral-900 sm:hidden border-t z-40 overflow-hidden"
+      className="transition-all ease-in-out duration-500 absolute top-full left-0 w-full sm:hidden border-t z-40 overflow-hidden"
       style={{
         height,
         visibility: isMenuOpen ? "visible" : "hidden",

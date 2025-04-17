@@ -11,7 +11,7 @@ export default function IntroCard() {
         className="rounded-full shadow-md"
       />
       <p className="text-lg font-medium text-center md:text-left">
-        I&apos;m <strong className="text-theme-1">Laura Gotarra</strong>, nice to meet you 👋
+        I&apos;m <strong className="text-primary">Laura Gotarra</strong>, nice to meet you 👋
       </p>
     </div>
   );
