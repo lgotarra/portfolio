@@ -1,5 +1,5 @@
 import experience from "@/data/experience.json";
-import ExperienceCard from "@/components/ExperienceCard";
+import ExperienceCard from "./components/ExperienceCard";
 
 export default function ExperiencePage() {
   return (

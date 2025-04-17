@@ -6,10 +6,10 @@ type Props = {
 
 export default function EducationCard({ title, school, year }: Props) {
   return (
-    <div className="border border-neutral-300 dark:border-neutral-700 p-4 rounded-md shadow-sm bg-white">
+    <div className="border p-6 rounded-lg shadow hover:shadow-lg transition bg-white dark:bg-neutral-900">
       <h3 className="text-lg font-semibold">{title}</h3>
-      <p className="text-sm">{school}</p>
-      <p className="text-sm">{year}</p>
+      <p className="text-sm text-neutral-400">{school}</p>
+      <p className="text-sm text-neutral-300 dark:text-neutral-500">{year}</p>
     </div>
   );
 }

@@ -13,7 +13,7 @@
 
   --color-primary: #d9ab91;
   --color-secondary: #639fab;
-  --color-accent: #84afe6;
+  --color-secondary-accent: #84afe6;
 }
 
 @media (prefers-color-scheme: dark) {
