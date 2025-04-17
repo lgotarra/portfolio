@@ -6,7 +6,7 @@ export default function HomeIntro() {
         <h3 className="text-xl font-medium">
           Full Stack dev & telecoms engineer
         </h3>
-        <p className="text-md text-neutral-700 dark:text-neutral-300">
+        <p className="text-md">
           I&apos;m a curious and passionate developer who loves learning and
           tackling creative and technical challenges. With experience in
           building full-stack applications, I thrive in collaborative and remote

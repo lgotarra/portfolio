@@ -2,14 +2,14 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="sticky bottom-0 w-full px-6 py-6 border-t bg-white dark:bg-neutral-900 flex flex-col sm:flex-row items-center justify-between text-sm text-neutral-500">
+    <footer className="sticky bottom-0 w-full px-6 py-6 border-t bg-white dark:bg-neutral-900 flex flex-col sm:flex-row items-center justify-between text-sm">
       {/* Redes sociales a la izquierda */}
       <div className="flex gap-4 mb-4 sm:mb-0">
         <a
           href={process.env.NEXT_PUBLIC_GITHUB}
           target="_blank"
           rel="noopener noreferrer"
-          className="w-9 h-9 flex items-center justify-center rounded-full text-neutral-500 hover:bg-secondary hover:text-white transition"
+          className="w-9 h-9 flex items-center justify-center rounded-full hover:bg-secondary hover:text-white transition"
         >
           <FaGithub size={18} />
         </a>
@@ -17,7 +17,7 @@ export default function Footer() {
           href={process.env.NEXT_PUBLIC_LINKEDIN}
           target="_blank"
           rel="noopener noreferrer"
-          className="w-9 h-9 flex items-center justify-center rounded-full text-neutral-500 hover:bg-secondary hover:text-white transition"
+          className="w-9 h-9 flex items-center justify-center rounded-full hover:bg-secondary hover:text-white transition"
         >
           <FaLinkedin size={18} />
         </a>
