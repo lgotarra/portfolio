@@ -17,12 +17,19 @@ export default function ExperienceCard({
 }: Props) {
   return (
     <div className="cardDiv">
-      <div className="flex justify-between items-center">
-        <h3 className="text-xl font-semibold">{jobTitle}</h3>
-        <span className="text-sm text-neutral-300 dark:text-neutral-500">{`${startDate} - ${endDate}`}</span>
+      <div className="flex justify-between items-start">
+        <div className="flex flex-col">
+          <h3 className="text-xl font-semibold">{jobTitle}</h3>
+          <h4 className="text-md mb-2 text-neutral-400">{company}</h4>
+        </div>
+
+        <div className="flex flex-col gap-1">
+          <span className="text-sm text-neutral-300 dark:text-neutral-500 text-end">{`${startDate}`}</span>
+          <span className="text-sm text-neutral-300 dark:text-neutral-500 text-end">{`${endDate}`}</span>
+        </div>
       </div>
-      <h4 className="text-md mb-2 text-neutral-400">{company}</h4>
-      <p className="text-sm mb-4">{description}</p>
+
+      <p className="text-sm mt-2 mb-6">{description}</p>
       <div className="flex flex-wrap gap-2">
         {skills.map((skill, i) => (
           <span
