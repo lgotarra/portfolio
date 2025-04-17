@@ -16,7 +16,7 @@ export default function ExperienceCard({
   skills,
 }: Props) {
   return (
-    <div className="border p-6 rounded-lg shadow hover:shadow-lg transition bg-white dark:bg-neutral-900">
+    <div className="cardDiv">
       <div className="flex justify-between items-center">
         <h3 className="text-xl font-semibold">{jobTitle}</h3>
         <span className="text-sm text-neutral-300 dark:text-neutral-500">{`${startDate} - ${endDate}`}</span>
