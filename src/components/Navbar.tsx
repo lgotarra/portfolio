@@ -23,7 +23,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="sticky top-0 w-full px-6 py-4 border-b flex justify-between items-center bg-white dark:bg-neutral-900">
+    <nav className="sticky top-0 w-full px-6 py-4 flex justify-between items-center bg-neutral-50 dark:bg-neutral-900">
       <Link href="/" className="text-xl font-bold" onClick={handleRedirect}>
         Laura Gotarra
       </Link>
