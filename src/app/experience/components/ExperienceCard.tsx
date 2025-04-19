@@ -1,3 +1,5 @@
+import MarkdownRenderer from "@/components/MarkdownRenderer";
+
 type Props = {
   jobTitle: string;
   company: string;
@@ -29,7 +31,10 @@ export default function ExperienceCard({
         </div>
       </div>
 
-      <p className="text-sm mt-2 mb-6">{description}</p>
+      <div className="mt-2 mb-6">
+        <MarkdownRenderer content={description.replace(/\\n/g, "\n")} />
+      </div>
+
       <div className="flex flex-wrap gap-2">
         {skills.map((skill, i) => (
           <span
