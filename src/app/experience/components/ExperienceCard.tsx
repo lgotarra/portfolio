@@ -38,7 +38,7 @@ export default function ExperienceCard({
       <div className="flex flex-wrap gap-2">
         {skills.map((skill, i) => (
           <span
-            key={i}
+            key={`skill-${i}`}
             className="text-xs px-2 py-1 rounded-full bg-neutral-100 dark:bg-neutral-700 text-neutral-600 dark:text-neutral-300"
           >
             {skill}
