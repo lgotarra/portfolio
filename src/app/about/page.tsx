@@ -6,7 +6,7 @@ import education from "@/data/education.json";
 
 export default function AboutPage() {
   return (
-    <main className="min-h-screen px-6 py-10 space-y-12">
+    <main className="mainPage">
       <IntroCard />
       <AboutMeText />
       <section>

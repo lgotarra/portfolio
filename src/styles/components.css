@@ -4,4 +4,8 @@
   .cardDiv {
     @apply p-6 rounded-lg border bg-white shadow transition-shadow duration-200 dark:bg-neutral-800 dark:border-neutral-500 hover:shadow-lg;
   }
+
+  .mainPage {
+    @apply max-w-4xl mx-auto py-8 px-4
+  }
 }
