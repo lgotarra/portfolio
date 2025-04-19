@@ -6,6 +6,6 @@
   }
 
   .mainPage {
-    @apply max-w-4xl mx-auto py-8 px-4
+    @apply max-w-4xl mx-auto py-8 px-4 space-y-12
   }
 }

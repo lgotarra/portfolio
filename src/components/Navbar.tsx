@@ -5,6 +5,7 @@ import { useState } from "react";
 import { MenuItem } from "./MenuList";
 import { FaBars } from "react-icons/fa";
 import AnimatedMenu from "./AnimatedMenu";
+import NavbarLink from "./NavbarLink";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
@@ -31,14 +32,9 @@ export default function Navbar() {
         {/* Desktop menu */}
         <div className="hidden sm:flex">
           {menuItems.map((item, index) => (
-            <Link
-              key={index}
-              href={item.href}
-              className="px-4 py-2 rounded transition hover:text-secondary"
-              onClick={handleRedirect}
-            >
+            <NavbarLink key={index} href={item.href} onClick={item.onClick}>
               {item.label}
-            </Link>
+            </NavbarLink>
           ))}
         </div>
         {/* Contact button */}
