@@ -21,7 +21,13 @@
       "Machine Learning",
       "Node.js",
       "Jest",
-      "Playwright"
+      "Playwright",
+      "Cypress",
+      "Kafka",
+      "BrowserStack",
+      "Maestro",
+      "Swagger",
+      "Docusaurus"
     ]
   },
   {
@@ -37,7 +43,10 @@
       "React.js",
       "Git",
       "JavaScript",
-      "Node.js"
+      "TypeScript",
+      "Node.js",
+      "RabbitMQ",
+      "Swagger"
     ]
   },
   {
