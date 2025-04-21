@@ -1,9 +1,15 @@
-Worked with Node.js, NestJS, Django, MongoDB, and MySQL for the core service and multiple microservices.
+Worked across multiple API services using NestJS with TypeScript and Django with Python, integrating both relational (MySQL) and non-relational (MongoDB) databases.
 
-Built and maintained two ReactJS web applications: one for clients and one for internal use. Contributed to a React Native app for mobile users.
+Developed internal microservices connected through WebSockets and Kafka to enable real-time communication and event-driven workflows.
 
-Created and labeled datasets; trained models with Ultralytics and deployed them using Django.
+Built web applications for both end users and internal management using React.js, ensuring responsive design and maintainability.
 
-Wrote and maintained unit and end-to-end tests for both backend and frontend.
+Contributed to the development of a mobile application for end users with React Native, focusing on performance and user experience.
 
-Documented the main API using Swagger
+Improved and implemented several AI models using Ultralytics and monitored training performance through TensorBoard.
+
+Wrote unit and end-to-end tests for backend services using Jest, ensuring code quality and reliability.
+
+Tested frontend applications with Cypress and Playwright, and mobile apps using BrowserStack and Maestro.
+
+Documented services thoroughly using Swagger for APIs and Docusaurus for broader technical documentation.

@@ -32,7 +32,7 @@ export default function ExperienceCard({
       </div>
 
       <div className="mt-2 mb-6">
-        <MarkdownRenderer content={description.replace(/\\n/g, "\n")} />
+        <MarkdownRenderer content={description} />
       </div>
 
       <div className="flex flex-wrap gap-2">
