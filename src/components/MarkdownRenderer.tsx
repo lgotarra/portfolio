@@ -18,7 +18,7 @@ export default function MarkdownRenderer({ content }: { content: string }) {
           li: (props) => <li className="mb-1" {...props} />,
           a: (props) => (
             <a
-              className="text-primary hover:underline"
+              className="text-accent hover:underline"
               target="_blank"
               rel="noopener noreferrer"
               {...props}

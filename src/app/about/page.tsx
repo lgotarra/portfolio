@@ -10,7 +10,7 @@ export default function AboutPage() {
       <IntroCard />
       <AboutMeText />
       <section>
-        <h2 className="text-2xl font-semibold mb-4">🎓 Education</h2>
+        <h2 className="text-2xl font-semibold mb-4 text-secondary">Education</h2>
         <div className="space-y-4">
           {education.map((item, idx) => (
             <EducationCard key={idx} {...item} />
