@@ -5,7 +5,6 @@
     "startDate": "November 2021",
     "endDate": "April 2025",
     "slug": "doctomatic",
-    "description": "Worked on developing full-stack applications for healthcare platforms, focusing on both frontend and backend, with an emphasis on user experience and data management. Integrated MongoDB, PostgreSQL, and developed APIs using Node.js, React, and Django. Collaborated with a cross-functional team in an agile environment.",
     "skills": [
       "MongoDB",
       "React Native",
@@ -37,7 +36,6 @@
     "startDate": "July 2021",
     "endDate": "November 2021",
     "slug": "docfarma",
-    "description": "Responsible for backend development, working with Node.js and MySQL to create APIs and services that supported various functionalities for healthcare platforms. Worked in an agile team with a focus on rapid iterations and efficient backend solutions.",
     "skills": [
       "MongoDB",
       "Linux",
@@ -57,7 +55,6 @@
     "startDate": "October 2020",
     "endDate": "June 2021",
     "slug": "behavr",
-    "description": "Worked as a Full Stack Engineer in the development of a Virtual Reality platform aimed at mental health and wellness. Focused on both frontend and backend development, and contributed to the overall platform architecture.",
     "skills": [
       "Linux",
       "HTML5",
@@ -72,7 +69,6 @@
     "startDate": "July 2019",
     "endDate": "October 2020",
     "slug": "limbix",
-    "description": "Worked in the Quality Assurance team ensuring the stability and usability of the company's applications. Collaborated closely with developers to identify issues and improve the product quality. Ensured smooth performance of web applications with a strong focus on user experience.",
     "skills": [
       "Linux",
       "HTML5",
