@@ -25,7 +25,7 @@ export default function NavbarLink({
       href={href}
       onClick={onClick}
       className={`px-4 py-2 rounded transition ${
-        isActive ? "text-secondary" : "hover:text-secondary"
+        isActive ? "text-primary" : "hover:text-primary"
       } ${className}`}
     >
       {children}

@@ -9,7 +9,7 @@ export default function Footer() {
           href={process.env.NEXT_PUBLIC_GITHUB}
           target="_blank"
           rel="noopener noreferrer"
-          className="w-9 h-9 flex items-center justify-center rounded-full hover:bg-secondary hover:text-white transition"
+          className="w-9 h-9 flex items-center justify-center rounded-full hover:bg-primary hover:text-white transition"
         >
           <FaGithub size={18} />
         </a>
@@ -17,7 +17,7 @@ export default function Footer() {
           href={process.env.NEXT_PUBLIC_LINKEDIN}
           target="_blank"
           rel="noopener noreferrer"
-          className="w-9 h-9 flex items-center justify-center rounded-full hover:bg-secondary hover:text-white transition"
+          className="w-9 h-9 flex items-center justify-center rounded-full hover:bg-primary hover:text-white transition"
         >
           <FaLinkedin size={18} />
         </a>

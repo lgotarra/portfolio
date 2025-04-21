@@ -24,7 +24,7 @@ export default function AboutPage() {
             were looking for. It might have been removed, renamed, or never
             existed in the first place.
           </p>
-          <Link href="/" className="text-xl font-bold text-secondary">
+          <Link href="/" className="text-xl font-bold text-primary">
             Go to Home Page
           </Link>
         </section>
