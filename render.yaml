@@ -1,13 +1,16 @@
 services:
-  - type: web
-    name: next-js
-    runtime: static
-    plan: starter
-    buildCommand: corepack enable && yarn set version 4.9.1 && yarn install --immutable && yarn build
-    startCommand: corepack enable && yarn start
-    autoDeploy: false
-    envVars:
-      - key: NODE_ENV
-        value: production
-      - key: NODE_VERSION
-        value: 22.14.0
+- type: web
+  name: lgotarra
+  runtime: static
+  repo: https://github.com/lgotarra/portfolio
+  envVars:
+  - key: NEXT_PUBLIC_LINKEDIN
+    sync: false
+  - key: NEXT_PUBLIC_GITHUB
+    sync: false
+  - key: NEXT_PUBLIC_CONTACT_EMAIL
+    sync: false
+  buildCommand: corepack enable && yarn set version 4.9.1 && yarn install --immutable
+    && yarn build
+  staticPublishPath: out
+version: "1"
