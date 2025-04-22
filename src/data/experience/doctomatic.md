@@ -1,15 +1,17 @@
-Worked across multiple API services using NestJS with TypeScript and Django with Python, integrating both relational (MySQL) and non-relational (MongoDB) databases.
+Worked on a variety of full stack projects and internal tooling, combining modern web technologies with AI integration and robust testing practices:
 
-Developed internal microservices connected through WebSockets and Kafka to enable real-time communication and event-driven workflows.
-
-Built web applications for both end users and internal management using React.js, ensuring responsive design and maintainability.
-
-Contributed to the development of a mobile application for end users with React Native, focusing on performance and user experience.
-
-Improved and implemented several AI models using Ultralytics and monitored training performance through TensorBoard.
-
-Wrote unit and end-to-end tests for backend services using Jest, ensuring code quality and reliability.
-
-Tested frontend applications with Cypress and Playwright, and mobile apps using BrowserStack and Maestro.
-
-Documented services thoroughly using Swagger for APIs and Docusaurus for broader technical documentation.
+- Developed and maintained multiple **API services** using:
+  - `NestJS` with `TypeScript`
+  - `Django` with `Python`
+  - Integrated both **relational (`MySQL`)** and **non-relational (`MongoDB`)** databases
+- Built **internal microservices** communicating via **WebSockets** and `kafka`, enabling real-time updates and event-driven workflows.
+- Created **responsive web applications** built with `React.js`, prioritizing maintainability and usability for:
+  - End users
+  - Internal management dashboards
+- Contributed to a **mobile app** for end users using `React Native`, focusing on performance and user experience.
+- Improved and deployed **AI models** using [`Ultralytics`](https://www.ultralytics.com/) and monitored training progress via `TensorBoard`.
+- Ensured code quality with:
+  - **Unit and E2E testing** on backend services using `Jest`
+  - **Frontend testing** with `Cypress` and `Playwright`
+  - **Mobile testing** through `BrowserStack` and `Maestro`
+- Documented APIs with `Swagger`, and broader technical documentation using `Docusaurus`Ï to ensure maintainability and clarity across teams.

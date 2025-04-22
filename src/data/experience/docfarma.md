@@ -1,11 +1,12 @@
-Worked on the core REST API service using Node.js, Express.js, TypeScript, and MongoDB, contributing to the architecture and performance improvements.
+Contributed to the core infrastructure and service design of a modular backend system, with a strong focus on performance, scalability, and team collaboration:
 
-Designed and implemented new microservices integrated with the main API via RabbitMQ, enhancing system modularity and scalability.
-
-Documented backend services using Swagger to improve developer onboarding and API usability.
-
-Actively participated in agile ceremonies — including daily stand-ups, sprint planning, and retrospectives — while tracking progress and tasks with JIRA.
-
-Contributed to the development of the mobile application using React Native, supporting feature delivery and bug fixes.
-
-Worked remotely, with occasional visits to the office for team meetups and collaborative sessions.
+- Developed the **core REST API** using `Node.js`, `Express.js`, `TypeScript`, and `MongoDB`, improving both system architecture and runtime performance.
+- Designed and implemented new **microservices**, integrated via `RabbitMQ`, to enhance modularity and system scalability.
+- Documented backend services with `Swagger`, streamlining onboarding for new developers and improving API usability.
+- Participated in **agile ceremonies**:
+  - Daily stand-ups
+  - Sprint planning
+  - Retrospectives
+- Used _Jira_ for task tracking and workflow management.
+- Supported the **mobile application** built with `React Native`, contributing to feature development and bug resolution.
+- Worked **remotely**, with occasional in-person team meetups to foster collaboration and alignment.

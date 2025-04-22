@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧑‍💻 Personal CV – Built with Next.js
 
-## Getting Started
+This is my personal online CV, built as a single-page web application using [Next.js](https://nextjs.org/). The goal is not only to share who I am and my professional background, but also to use this project as a **playground** to explore and integrate new technologies.
 
-First, run the development server:
+## ✨ Project Overview
+
+The web app includes:
+
+- A **Homepage** with a brief introduction
+- An **About** section with personal background
+- A **Work Experience** tab showing my professional journey
+- A **fully responsive layout** optimized for mobile, tablet and desktop
+- A **Render deployment configuration** (`render.yaml`) for easy hosting
+
+## 🛠 Tech Stack
+
+- **Framework:** [Next.js](https://nextjs.org/)
+- **Language:** TypeScript
+- **UI:** React + Tailwind CSS
+- **Deployment:** [Render](https://render.com/) via YAML config
+
+## 🎯 Project Purpose
+
+This project serves two main purposes:
+
+1. **Self-presentation:** A way to introduce myself, my skills, and my professional experience in a simple, accessible format.
+2. **Learning lab:** I plan to evolve this project by gradually incorporating new tools and libraries as I explore them.
+
+## 🔧 Setup Instructions
+
+To run this project locally:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/lgotarra/portfolio.git
+cd portfolio
+yarn
+yarn run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🧪 Future Plans
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Improve the way experience is presented
+- Add images and media to the About section
+- Integrate a simple chatbot
+- Experiment with new tools and services (e.g. CMS, analytics, animations, etc.)
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Thanks for passing by! If you want to get in touch, feel free to [open an issue](https://github.com/lgotarra/portfolio/issues) or contact me via the info on the site.
