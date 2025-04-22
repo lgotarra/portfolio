@@ -1,11 +1,10 @@
-Led QA efforts for VR applications on [Pico](https://www.picoxr.com/global) headsets and companion mobile app, ensuring stability and performance across devices.
+I led the QA process for VR experiences delivered via **[Pico headsets](https://www.picoxr.com/global)** and a companion **Android mobile app**, ensuring smooth functionality and consistent performance across devices.
 
-Collaborated closely with the development team based in Palo Alto, CA, coordinating via GitHub, Slack, and Google Meet.
-
-Oversaw the preparation and delivery of VR kits, including custom configuration of VR headsets and paired Android tablets.
-
-Provided technical customer support, troubleshooting hardware and software issues across multiple platforms.
-
-Maintained and implemented tailored solutions for the sales web portal, built with Shopify, adapting to evolving business needs.
-
-Initially worked on-site at the Barcelona office; transitioned to remote work during the COVID-19 pandemic, with occasional visits for hardware logistics and to stay connected with the local team.
+- 🤝 Collaborated closely with the development team in **Palo Alto (CA)**, using **GitHub**, **Slack**, and **Google Meet** to stay aligned and productive.
+- 🎮 Managed the **preparation and delivery of VR kits**, including:
+    - Custom configuration of VR headsets
+    - Pairing with Android tablets
+    - Ensuring readiness for client use
+- 🧰 Provided **technical customer support**, resolving hardware and software issues across multiple platforms.
+- 🛍️ Maintained and adapted the **Shopify-based sales portal**, implementing tailored solutions to meet changing business requirements.
+- 🌐 Initially worked **on-site in Barcelona**, then transitioned to remote work during the COVID-19 pandemic, with periodic office visits for hardware logistics and team coordination.
