@@ -3,7 +3,7 @@ services:
     name: next-js
     runtime: node
     plan: starter
-    buildCommand: yarn set version 4.9.1 && yarn install --immutable && yarn build
+    buildCommand: corepack enable && yarn set version 4.9.1 && yarn install --immutable && yarn build
     startCommand: yarn start
     autoDeploy: false
     envVars:
