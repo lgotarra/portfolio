@@ -1,6 +1,6 @@
 I led the QA process for VR experiences delivered via **[Pico headsets](https://www.picoxr.com/global)** and a companion **Android mobile app**, ensuring smooth functionality and consistent performance across devices.
 
-- 🤝 Collaborated closely with the development team in **Palo Alto (CA)**, using **GitHub**, **Slack**, and **Google Meet** to stay aligned and productive.
+- 🤝 Collaborated closely with the development team in **Palo Alto (CA)**, using _GitHub_, _Slack_, and _Google Meet_ to stay aligned and productive.
 - 🎮 Managed the **preparation and delivery of VR kits**, including:
     - Custom configuration of VR headsets
     - Pairing with Android tablets
