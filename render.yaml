@@ -12,4 +12,17 @@ services:
         sync: false
     buildCommand: corepack enable && yarn set version 4.9.1 && yarn install --immutable && yarn build
     staticPublishPath: out
+  - type: web
+    name: portfolio
+    runtime: static
+    repo: https://github.com/lgotarra/portfolio
+    envVars:
+      - key: NEXT_PUBLIC_LINKEDIN
+        sync: false
+      - key: NEXT_PUBLIC_GITHUB
+        sync: false
+      - key: NEXT_PUBLIC_CONTACT_EMAIL
+        sync: false
+    buildCommand: corepack enable && yarn set version 4.9.1 && yarn install --immutable && yarn build
+    staticPublishPath: out
 version: "1"
