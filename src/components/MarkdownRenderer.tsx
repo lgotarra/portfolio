@@ -10,10 +10,10 @@ export default function MarkdownRenderer({ content }: { content: string }) {
           strong: (props) => <strong className="font-semibold" {...props} />,
           em: (props) => <em className="italic" {...props} />,
           ul: (props) => (
-            <ul className="list-disc list-inside mb-3" {...props} />
+            <ul className="list-disc list-outside pl-6 mb-3" {...props} />
           ),
           ol: (props) => (
-            <ol className="list-decimal list-inside mb-3" {...props} />
+            <ol className="list-decimal list-outside pl-6 mb-3" {...props} />
           ),
           li: (props) => <li className="mb-1" {...props} />,
           a: (props) => (
