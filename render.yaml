@@ -4,7 +4,7 @@ services:
     runtime: node
     plan: starter
     buildCommand: corepack enable && yarn set version 4.9.1 && yarn install --immutable && yarn build
-    startCommand: yarn start
+    startCommand: corepack enable && yarn start
     autoDeploy: false
     envVars:
       - key: NODE_ENV
