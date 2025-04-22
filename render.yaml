@@ -1,7 +1,7 @@
 services:
   - type: web
     name: next-js
-    runtime: node
+    runtime: static
     plan: starter
     buildCommand: corepack enable && yarn set version 4.9.1 && yarn install --immutable && yarn build
     startCommand: corepack enable && yarn start
