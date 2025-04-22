@@ -7,8 +7,10 @@ export default function MarkdownRenderer({ content }: { content: string }) {
       <ReactMarkdown
         remarkPlugins={[remarkBreaks]}
         components={{
-          strong: (props) => <strong className="font-semibold" {...props} />,
-          em: (props) => <em className="italic" {...props} />,
+          strong: (props) => (
+            <strong className="font-semibold text-primary" {...props} />
+          ),
+          em: (props) => <em className="italic text-secondary" {...props} />,
           ul: (props) => (
             <ul className="list-disc list-outside pl-6 mb-3" {...props} />
           ),
@@ -21,6 +23,12 @@ export default function MarkdownRenderer({ content }: { content: string }) {
               className="text-accent hover:underline"
               target="_blank"
               rel="noopener noreferrer"
+              {...props}
+            />
+          ),
+          code: (props) => (
+            <code
+              className="bg-muted text-[0.85em] text-secondary font-mono px-1 py-0.5 rounded"
               {...props}
             />
           ),
