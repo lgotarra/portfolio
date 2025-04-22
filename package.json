@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prebuild": "yarn set version 4.9.1 && yarn install --immutable"
   },
   "dependencies": {
     "next": "^15.3.1",
