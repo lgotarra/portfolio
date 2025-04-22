@@ -32,6 +32,6 @@
   },
   "packageManager": "yarn@4.9.1",
   "engines": {
-    "node": "23.11.0"
+    "node": "22.14.0"
   }
 }
