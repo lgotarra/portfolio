@@ -37,3 +37,7 @@ out/
 .pnp.loader.mjs
 .yarn/unplugged
 .yarn/build-state.yml
+
+
+public/sitemap*
+public/robots.txt
