@@ -14,4 +14,4 @@ Worked on a variety of full stack projects and internal tooling, combining moder
   - **Unit and E2E testing** on backend services using `Jest`
   - **Frontend testing** with `Cypress` and `Playwright`
   - **Mobile testing** through `BrowserStack` and `Maestro`
-- Documented APIs with `Swagger`, and broader technical documentation using `Docusaurus`Ï to ensure maintainability and clarity across teams.
+- Documented APIs with `Swagger`, and broader technical documentation using `Docusaurus` to ensure maintainability and clarity across teams.
