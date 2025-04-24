@@ -10,6 +10,8 @@ services:
         sync: false
       - key: NEXT_PUBLIC_CONTACT_EMAIL
         sync: false
+      - key: SITE_URL
+        sync: false
     buildCommand: corepack enable && yarn set version 4.9.1 && yarn install --immutable && yarn build
     staticPublishPath: out
 version: "1"
