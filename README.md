@@ -2,11 +2,6 @@
 
 This is my personal online CV, built as a single-page web application using [Next.js](https://nextjs.org/). The goal is not only to share who I am and my professional background, but also to use this project as a **playground** to explore and integrate new technologies.
 
-## 🚀 Update chatbot data
-
-[![Run Ingest](https://github.com/lgotarra/portfolio/actions/workflows/ingest.yml/badge.svg)](https://github.com/lgotarra/portfolio/actions/workflows/ingest.yml)
-
-
 ## ✨ Project Overview
 
 The web app includes:
