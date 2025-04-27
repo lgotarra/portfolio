@@ -5,7 +5,7 @@ on:
 
 jobs:
   ingest:
-    if: github.actor == secrets.GITHUB_ALLOWED_ACTOR
+    if: github.actor == secrets.DISPATCH_ALLOWED_ACTOR
     runs-on: ubuntu-latest
 
     steps:
