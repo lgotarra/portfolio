@@ -1,17 +1,25 @@
+# Exported from Render on 2025-04-27T10:38:32Z
 services:
   - type: web
     name: lgotarra
-    runtime: static
+    runtime: node
     repo: https://github.com/lgotarra/portfolio
+    plan: starter
     envVars:
+      - key: SITE_URL
+        sync: false
       - key: NEXT_PUBLIC_LINKEDIN
         sync: false
       - key: NEXT_PUBLIC_GITHUB
         sync: false
       - key: NEXT_PUBLIC_CONTACT_EMAIL
         sync: false
-      - key: SITE_URL
-        sync: false
-    buildCommand: corepack enable && yarn set version 4.9.1 && yarn install --immutable && yarn build
-    staticPublishPath: out
+    region: frankfurt
+    buildCommand:
+      corepack enable && yarn set version 4.9.1 && yarn install --immutable
+      && yarn build
+    startCommand: yarn start
+    domains:
+      - lgotarra.com
+      - www.lgotarra.com
 version: "1"
