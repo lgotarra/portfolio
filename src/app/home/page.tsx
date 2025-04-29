@@ -1,3 +1,5 @@
+import Chat from "@/components/Chat";
+
 export default function HomePage() {
   return (
     <main className="mainPage">
@@ -7,6 +9,9 @@ export default function HomePage() {
         <h3 className="text-xl font-medium">
           Full Stack Developer & Telecoms Engineer
         </h3>
+      </section>
+      <section>
+        <Chat />
       </section>
     </main>
   );
