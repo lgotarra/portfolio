@@ -1,5 +1,5 @@
 import { pipeline, FeatureExtractionPipeline } from "@xenova/transformers";
-import { supabase } from "./supabase.ts";
+import { supabaseClient } from "./supabase.ts";
 import { createHash } from "crypto";
 
 let embedder: FeatureExtractionPipeline | null = null;
@@ -56,7 +56,7 @@ export async function storeEmbeddings(
       embedding: embeddings[i],
     }));
 
-    const { error } = await supabase
+    const { error } = await supabaseClient
       .from("documents")
       .upsert(documents, { onConflict: "content_id" });
 
@@ -74,7 +74,7 @@ export async function cleanOldDocuments(): Promise<void> {
   const today = new Date();
   today.setUTCHours(0, 0, 0, 0); // Set to today 00:00 UTC
 
-  const { error } = await supabase
+  const { error } = await supabaseClient
     .from("documents")
     .delete()
     .lt("updated_at", today.toISOString());
