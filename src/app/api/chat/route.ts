@@ -15,7 +15,7 @@ export async function POST(req: NextRequest) {
   }
 
   const result = ChatRequestSchema.safeParse(body);
-  console.log("result", result)
+
   if (!result.success) {
     return NextResponse.json(
       { error: "Invalid request", details: result.error.format() },
